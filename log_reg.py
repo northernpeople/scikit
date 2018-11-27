@@ -32,5 +32,6 @@ model.fit(X_train, y_train_binary)
 
 print(model.coef_)
 print(model.predict([X_test]))
+print(model.predict_proba([X_test]))
 
 print(y_test)
