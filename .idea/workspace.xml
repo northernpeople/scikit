@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2369a20c-fd7c-4ce6-b1cb-77716e4fa8c0" name="Default" comment="" />
+    <list default="true" id="2369a20c-fd7c-4ce6-b1cb-77716e4fa8c0" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/svm_linear_multiclass.py" beforeDir="false" afterPath="$PROJECT_DIR$/svm_linear_multiclass.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -62,13 +64,18 @@
       <file leaf-file-name="svm_linear_multiclass.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/svm_linear_multiclass.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="148">
-              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+            <state relative-caret-position="277">
+              <caret line="39" column="10" lean-forward="true" selection-start-line="39" selection-start-column="10" selection-end-line="39" selection-end-column="10" />
               <folding>
                 <element signature="e#0#23#0" expanded="true" />
               </folding>
             </state>
           </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="svm_with_kernel.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/svm_with_kernel.py">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file leaf-file-name="classes.py" pinned="false" current-in-tab="false">
@@ -150,25 +157,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.svm_linear_multiclass">
-    <configuration name="image_class" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="scikit" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/image_class.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
+  <component name="RunManager" selected="Python.svm_with_kernel">
     <configuration name="lin_reg" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="scikit" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -241,20 +230,38 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <configuration name="svm_with_kernel" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="scikit" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/svm_with_kernel.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <list>
-      <item itemvalue="Python.image_class" />
       <item itemvalue="Python.lin_reg" />
       <item itemvalue="Python.log_reg" />
       <item itemvalue="Python.svm_linear" />
       <item itemvalue="Python.svm_linear_multiclass" />
+      <item itemvalue="Python.svm_with_kernel" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.svm_with_kernel" />
         <item itemvalue="Python.svm_linear_multiclass" />
         <item itemvalue="Python.svm_linear" />
         <item itemvalue="Python.log_reg" />
         <item itemvalue="Python.lin_reg" />
-        <item itemvalue="Python.image_class" />
       </list>
     </recent_temporary>
   </component>
@@ -359,10 +366,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/svm_with_kernel.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/svm_linear_multiclass.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        <state relative-caret-position="277">
+          <caret line="39" column="10" lean-forward="true" selection-start-line="39" selection-start-column="10" selection-end-line="39" selection-end-column="10" />
           <folding>
             <element signature="e#0#23#0" expanded="true" />
           </folding>

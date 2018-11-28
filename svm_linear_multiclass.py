@@ -25,27 +25,24 @@ for price in y_train:
 
 X_test = boston.data[28]
 y_test = boston.target[28]
-
 print(y_test)
-
-
 X_test1 = boston.data[35]
 y_test1 = boston.target[35]
-
 print(y_test1)
-
-
 X_test2 = boston.data[3]
 y_test2 = boston.target[3]
-
 print(y_test2)
 
 clf = svm.SVC(gamma='scale', decision_function_shape='ovo')
 clf.fit(X_train, y_train_3)
 
-print(clf.predict([X_test]))
-print(clf.predict([X_test1]))
-print(clf.predict([X_test2]))
+dec = clf.decision_function([X_test])
+print(dec)
+print(dec.shape[1])
+
+# print(clf.predict([X_test]))
+# print(clf.predict([X_test1]))
+# print(clf.predict([X_test2]))
 
 
 # # get support vectors
