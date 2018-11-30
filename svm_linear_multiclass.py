@@ -38,11 +38,11 @@ clf.fit(X_train, y_train_3)
 
 dec = clf.decision_function([X_test])
 print(dec)
-print(dec.shape[1])
+print(dec.shape)
 
-# print(clf.predict([X_test]))
-# print(clf.predict([X_test1]))
-# print(clf.predict([X_test2]))
+print(clf.predict([X_test]))
+print(clf.predict([X_test1]))
+print(clf.predict([X_test2]))
 
 
 # # get support vectors
